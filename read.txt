@@ -1,0 +1,30 @@
+麦当劳店铺数据：
+店名，所在城市
+https://www.mcdonalds.com.cn/index/Quality/publicinfo/deliveryinfo?data%5BSearch%5D%5Bcity%5D=
+
+2019 城市排行
+几线城市
+http://www.zuihaodaxue.com/news/20190525-1003.html
+
+GDP，人口
+http://caifuhao.eastmoney.com/news/20190201115604564011000
+
+
+spider
+爬虫文件，获取店名，GDP，人口的数据，pycharm 编写
+
+
+analysis.ipynb 
+数据分析文件，anaconda 的 jupyter 编写
+
+定义问题：
+1、麦当劳店铺数的多少是否与城市等级有关
+2、麦当劳店铺数的多少是否与城市人口有关
+3、麦当劳店铺数的多少是否与城市的 GDP 有关
+
+可视化：
+x 轴- y 轴
+店铺数-城市（横柱状图）
+城市等级占比（饼状图）
+人口-店铺数（散点图 + 回归直线）
+城市名-店铺数 + GDP（并列柱状图）
